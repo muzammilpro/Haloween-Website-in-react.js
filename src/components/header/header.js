@@ -1,11 +1,12 @@
-
+import Button from '../button/Button'
+import HeaderImg from '../../images/home1-img.png'
 
 function header() {
     return (
         <section className="swiper-slide">
             <div className="home__content grid">
                 <div className="home__group">
-                    <img src="../../images/home1-img.png" alt="" className="home__img" />
+                    <img src={HeaderImg} alt="" className="home__img" />
                     <div className="home__indicator"></div>
 
                     <div className="home__details-img">
@@ -22,8 +23,7 @@ function header() {
                         </p>
 
                         <div className="home__buttons">
-                            <a href="#" className="button">Book Now</a>
-                            <a href="#" className="button--link button--flex">Track Record <i className='bx bx-right-arrow-alt button__icon'></i></a>
+                           <Button />
                         </div>
                 </div>
             </div>
