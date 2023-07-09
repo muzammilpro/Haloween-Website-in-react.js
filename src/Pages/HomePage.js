@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Header from '../components/header/header'
 
 
 
@@ -6,7 +7,13 @@ import Navbar from '../components/Navbar'
 function HomePage (){
     return(
 
-        <Navbar />
+        <div>
+            <Navbar />
+        
+         <Header />
+            
+        </div>
+
     );
 }
 
