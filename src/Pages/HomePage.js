@@ -4,14 +4,14 @@ import Header from '../components/header/header'
 
 
 
-function HomePage (){
-    return(
+function HomePage() {
+    return (
 
         <div>
             <Navbar />
-        
-         <Header />
-            
+
+            <Header />
+
         </div>
 
     );
