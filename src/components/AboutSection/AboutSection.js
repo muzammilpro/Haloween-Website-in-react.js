@@ -1,4 +1,5 @@
 import image from '../../images/about-img.png'
+import Button from '../button/Button'
 
 function AboutSection() {
     return (
@@ -12,7 +13,7 @@ function AboutSection() {
                             very fun international celebration, this celebration comes from ancient origins, and is already
                             celebrated by everyone.
                         </p>
-                        <a href="#" className="button">Know more</a>
+                        <Button/>
                     </div>
 
                     <img src={image} alt="" className="about__img" />
