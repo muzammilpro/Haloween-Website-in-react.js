@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/header/header'
 import Cards from '../components/Cards/Cards'
+import AboutSection from '../components/AboutSection/AboutSection'
 
 
 
@@ -19,14 +20,16 @@ function HomePage() {
                 <div class="category__container container grid">
 
 
-                <Cards />
-                <Cards />
-                <Cards />
+                    <Cards />
+                    <Cards />
+                    <Cards />
 
 
                 </div>
 
             </section>
+
+            <AboutSection/>
 
 
 
