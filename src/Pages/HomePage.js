@@ -3,6 +3,7 @@ import Header from '../components/header/header'
 import Cards from '../components/Cards/Cards'
 import AboutSection from '../components/AboutSection/AboutSection'
 import TrickOrTreatSection from '../components/TrickOrTreatSection/TrickOrTreatSection'
+import DiscountSection from '../components/DiscountSection/DiscountSection'
 
 
 
@@ -32,6 +33,7 @@ function HomePage() {
 
             <AboutSection/>
             <TrickOrTreatSection/>
+            <DiscountSection />
 
 
 
