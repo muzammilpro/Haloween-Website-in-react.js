@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Header from '../components/header/header'
 import Cards from '../components/Cards/Cards'
 import AboutSection from '../components/AboutSection/AboutSection'
+import TrickOrTreatSection from '../components/TrickOrTreatSection/TrickOrTreatSection'
 
 
 
@@ -30,6 +31,7 @@ function HomePage() {
             </section>
 
             <AboutSection/>
+            <TrickOrTreatSection/>
 
 
 
