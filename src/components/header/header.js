@@ -18,15 +18,16 @@ function header() {
                 <div className="home__data">
                     <h3 className="home__subtitle">#1 Top Scariest Ghost</h3>
                     <h1 className="home__title">UOOOO <br /> TRICK OR <br /> TREAT!!</h1>
-                        <p className="home__description">Hi, I'm Reiza, people call me "El Labu". I am currently trying to learn
-                            something new, building my own bike with parts made only in Malaysia.
-                        </p>
+                    <p className="home__description">Hi, I'm Reiza, people call me "El Labu". I am currently trying to learn
+                        something new, building my own bike with parts made only in Malaysia.
+                    </p>
 
-                        <div className="home__buttons">
-                           <Button />
-                           <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                    <div className="home__buttons">
 
-                        </div>
+                        <Button />
+                        <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+
+                    </div>
                 </div>
             </div>
         </section>

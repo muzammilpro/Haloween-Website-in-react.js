@@ -5,6 +5,7 @@ function Button (){
 
 
        <div>
+         
          <a href="#" class="button">Book Now</a>
 
        </div>
