@@ -1,11 +1,11 @@
-import Image from '../../images/new1-img.png'
 
-export default function NewArrivalsCards() {
+
+export default function NewArrivalsCards(props) {
     return (
         <div>
             <div className="new__content swiper-slide">
                 <div className="new__tag">New</div>
-                <img src={Image} alt="" className="new__img" />
+                <img src={props.scr} alt="" className="new__img" />
                 <h3 className="new__title">Haunted House</h3>
                 <span className="new__subtitle">Accessory</span>
 
