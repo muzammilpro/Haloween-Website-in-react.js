@@ -5,6 +5,8 @@ import AboutSection from '../components/AboutSection/AboutSection'
 import TrickOrTreatSection from '../components/TrickOrTreatSection/TrickOrTreatSection'
 import DiscountSection from '../components/DiscountSection/DiscountSection'
 import NewArrivals from '../components/NewArrivals/NewArrivals'
+import NewsLetter from '../components/NewsLetter/NewsLetter'
+import Footer from '../components/Footer/Footer'
 
 
 
@@ -36,6 +38,9 @@ function HomePage() {
             <TrickOrTreatSection/>
             <DiscountSection />
             <NewArrivals />
+            <NewsLetter />
+            <Footer />
+
 
 
 

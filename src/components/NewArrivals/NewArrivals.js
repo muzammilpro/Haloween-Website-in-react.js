@@ -6,6 +6,7 @@ export default function NewArrivals() {
             <section className="section new" id="new">
                 <h2 className="section__title">New Arrivals</h2>
 
+                <centre>
                 <div className="new__container container">
                     <div className="swiper new-swiper">
                         <div className="swiper-wrapper">
@@ -19,6 +20,7 @@ export default function NewArrivals() {
                         </div>
                     </div>
                 </div>
+                </centre>
             </section>
         </div>
     )

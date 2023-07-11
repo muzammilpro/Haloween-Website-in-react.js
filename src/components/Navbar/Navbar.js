@@ -1,4 +1,4 @@
-
+import Image from '../../images/logo.png'
 
 
 
@@ -7,7 +7,7 @@ function navbar (){
         <header className="header" id="header">
         <nav className="nav container">
             <a href="#" className="nav__logo">
-                <img src="../images/logo.png"  alt="" className="nav__logo-img" />
+                <img src={Image}  alt="" className="nav__logo-img" />
                 Halloween
             </a>
 
