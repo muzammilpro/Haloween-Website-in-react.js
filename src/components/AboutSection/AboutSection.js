@@ -13,7 +13,7 @@ function AboutSection() {
                             very fun international celebration, this celebration comes from ancient origins, and is already
                             celebrated by everyone.
                         </p>
-                        <Button/>
+                        <Button text="Know More" />
                     </div>
 
                     <img src={image} alt="" className="about__img" />

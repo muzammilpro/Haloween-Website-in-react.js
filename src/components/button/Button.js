@@ -1,12 +1,12 @@
 
 
-function Button (){
+function Button (props){
     return(
 
 
        <div>
          
-         <a href="#" class="button">Book Now</a>
+         <a href="#" class="button">{props.text}</a>
 
        </div>
 

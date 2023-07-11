@@ -24,7 +24,7 @@ function header() {
 
                     <div className="home__buttons">
 
-                        <Button />
+                        <Button text="Book Now" />
                         <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
 
                     </div>

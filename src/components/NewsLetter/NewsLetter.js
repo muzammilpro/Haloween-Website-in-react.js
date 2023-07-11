@@ -13,7 +13,7 @@ export default function NewsLetter() {
                     <form action="" className="newsletter__form">
                         <input type="text" placeholder="Enter your email" className="newsletter__input" />
                         
-                        <Button />
+                        <Button  text="Subscription" />
                     </form>
                 </div>
             </section>
