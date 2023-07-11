@@ -28,17 +28,17 @@ function HomePage() {
                 <div class="category__container container grid">
 
 
-                    <Cards scr={cardImg1}  title="Ghosts"  description="Choose the ghosts, the scariest there are." />
-                    <Cards scr={cardImg2} title="Pumpkins"  description="You look at the scariest pumpkins there is." />
-                    <Cards scr={cardImg3} title="Witch Hat"  description="Pick the most stylish witch hats out there." />
+                    <Cards scr={cardImg1} title="Ghosts" description="Choose the ghosts, the scariest there are." />
+                    <Cards scr={cardImg2} title="Pumpkins" description="You look at the scariest pumpkins there is." />
+                    <Cards scr={cardImg3} title="Witch Hat" description="Pick the most stylish witch hats out there." />
 
 
                 </div>
 
             </section>
 
-            <AboutSection/>
-            <TrickOrTreatSection/>
+            <AboutSection />
+            <TrickOrTreatSection />
             <DiscountSection />
             <NewArrivals />
             <NewsLetter />
